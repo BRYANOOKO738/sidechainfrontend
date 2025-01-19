@@ -56,8 +56,7 @@ function App() {
       const bridge = new ethers.Contract(BRIDGE_ADDRESS, BridgeABI, provider);
       setTokenContract(token);
       setBridgeContract(bridge);
-      console.log(token);
-      console.log(bridge);
+      
    console.log("clicking")
       
       await refreshBalance(token, account);
