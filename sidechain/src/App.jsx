@@ -30,7 +30,7 @@ function App() {
   const connectWallet = async () => {
     try {
       setLoading(true);
-      setError('');
+      
   
      
       if (!window.ethereum) {
